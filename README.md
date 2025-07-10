@@ -1,2 +1,5 @@
 # NLP
 To Bot or not to Bot?
+
+Abstract
+This study explores the effectiveness of multimodal transformer-based architectures for detecting AI-generated fake personas on social media platforms by using information from multiple sources, including text, profile images, and behavioral data. The model combines RoBERTa for understanding written content, user metadata like follower/following counts, and image features extracted using the CLIP vision encoder. The experiments were conducted using the TwiBot-22 dataset, which contains information on 1 million Twitter users. After testing different model setups and training strategies, the final version reached about 63\% accuracy and a macro F1 score of 0.63 on a balanced test set of 15,000 users. These results show that using multiple types of information together can improve bot detection over just relying on text.
